@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    const videos = [
+      "https://youtube.com/shorts/FN4Sa2fZA8k?si=_7FTUuz6PPOy8YND",
+      "https://youtube.com/shorts/thVXi57WAPg?si=Q_gV92Y_AOwt5CDl",
+      "https://youtube.com/shorts/dFtGwpJf9w0?si=Vcdc2CbN44gC1UmF",
+      "https://youtube.com/shorts/efMxOwLGktE?feature=shared",
+      "https://youtu.be/SsSAu_aMPXg?si=MA9ue1wLZCPjcRHi"
+    ];
+    const randomIndex = Math.floor(Math.random() * videos.length);
+    window.location.href = videos[randomIndex];
+  </script>
+</head>
+<body>
+  <p>Redirecting to your video...</p>
+</body>
+</html>
